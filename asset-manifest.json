@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/digitio-stack-portfolio/static/css/main.20bc061e.css",
+    "main.js": "/digitio-stack-portfolio/static/js/main.040b64ee.js",
+    "static/js/787.1ed0c42c.chunk.js": "/digitio-stack-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/3.png": "/digitio-stack-portfolio/static/media/3.0dc7ace47c16bc618e22.png",
+    "static/media/2.png": "/digitio-stack-portfolio/static/media/2.718419717de6287fe323.png",
+    "static/media/5.png": "/digitio-stack-portfolio/static/media/5.102ce7f387f2a48f02fb.png",
+    "static/media/1.png": "/digitio-stack-portfolio/static/media/1.c1a9618b04968d02be05.png",
+    "static/media/4.png": "/digitio-stack-portfolio/static/media/4.22fb403e1dbe2b2d2ad3.png",
+    "static/media/6.png": "/digitio-stack-portfolio/static/media/6.6799e1467b54bb835f31.png",
+    "static/media/7.jpeg": "/digitio-stack-portfolio/static/media/7.c6c589b6571c53b6e6c3.jpeg",
+    "static/media/11.jpeg": "/digitio-stack-portfolio/static/media/11.9b8c2a8cc7b90ae0a820.jpeg",
+    "static/media/8.jpeg": "/digitio-stack-portfolio/static/media/8.114796ace2b3e2fa9e52.jpeg",
+    "static/media/12.jpeg": "/digitio-stack-portfolio/static/media/12.f2a102165ccfc6cd4e8e.jpeg",
+    "static/media/logo.png": "/digitio-stack-portfolio/static/media/logo.8747d85e062f939b1c5e.png",
+    "static/media/10.jpeg": "/digitio-stack-portfolio/static/media/10.d8fa92b197a7bb5ce7c2.jpeg",
+    "static/media/9.jpeg": "/digitio-stack-portfolio/static/media/9.dbb8a0923db44d2c22ae.jpeg",
+    "static/media/developer1.png": "/digitio-stack-portfolio/static/media/developer1.10fdd2ea1fb41922816b.png",
+    "static/media/video editor.png": "/digitio-stack-portfolio/static/media/video editor.ca5090712fb66c75440d.png",
+    "static/media/designer.png": "/digitio-stack-portfolio/static/media/designer.c5c84fc8f305024f0061.png",
+    "static/media/ui design.png": "/digitio-stack-portfolio/static/media/ui design.d09e18e6069c2d58fe81.png",
+    "static/media/logo design.png": "/digitio-stack-portfolio/static/media/logo design.1db639f62b7b27ea23cb.png",
+    "static/media/developer2.png": "/digitio-stack-portfolio/static/media/developer2.1c8bc5abbd28f9f967d3.png",
+    "index.html": "/digitio-stack-portfolio/index.html",
+    "main.20bc061e.css.map": "/digitio-stack-portfolio/static/css/main.20bc061e.css.map",
+    "main.040b64ee.js.map": "/digitio-stack-portfolio/static/js/main.040b64ee.js.map",
+    "787.1ed0c42c.chunk.js.map": "/digitio-stack-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20bc061e.css",
+    "static/js/main.040b64ee.js"
+  ]
+}
