@@ -38,6 +38,30 @@ export default function Projects() {
       image: require("../assets/images/6.png"),
       url: "http://jamiathahqeeq.in/",
     },
+    {
+      id: 7,
+      name: "CEPT DHIU",
+      image: require("../assets/images/13.png"),
+      url: "https://cpet.dhiu.in/",
+    },
+    {
+      id: 8,
+      name: "NOTOURS TRAVEL WEBSITE",
+      image: require("../assets/images/14.png"),
+      url: "https://my-tour-project-2021.herokuapp.com/",
+    },
+    {
+      id: 9,
+      name: "TRAVEL WEBSITE TEMPLATE",
+      image: require("../assets/images/15.png"),
+      url: "https://my-tour-project-2021.herokuapp.com/",
+    },
+    {
+      id: 10,
+      name: "BLOG TEMPLATE",
+      image: require("../assets/images/16.png"),
+      url: "https://janishnehyan03.github.io/blog-template/",
+    },
   ];
   return (
     <div id="services">
@@ -64,9 +88,9 @@ export default function Projects() {
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             {Services.map((service, index) => (
               <>
-                <a href={service.url}>
+                <a href={service.url}target={'_blank'}>
                   <div
-                    className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8 hover:shadow-2xl transition-shadow duration-300 group hover:scale-105"
+                    className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8 hover:shadow-2xl transition duration-300 group hover:scale-105"
                     key={service.id}
                   >
                     <div className="mb-12 space-y-4">
