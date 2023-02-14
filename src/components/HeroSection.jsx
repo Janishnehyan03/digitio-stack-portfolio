@@ -1,9 +1,8 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Fragment } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Logo from "../assets/images/logo.png";
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -41,9 +40,9 @@ export default function HeroSection() {
                       style={{
                         color: "#006778",
                       }}
-                      className="text-3xl font-bold text-primary-900"
+                      className="text-3xl uppercase font-bold text-primary-900"
                     >
-                      Digito Stack
+                      Digitio Stack
                     </h1>
                     {/*  */}
                     <div className="-mr-2 flex items-center md:hidden">
@@ -116,7 +115,7 @@ export default function HeroSection() {
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
               <span className="block xl:inline text-lg">Welcome to</span>{" "}
-              <h1 className="text-2xl tracking-tight font-extrabold text-primary-900 sm:text-5xl md:text-6xl mb-6">
+              <h1 className="text-2xl tracking-tight font-bold text-primary-900 sm:text-5xl md:text-6xl mb-6">
                 <span className="block xl:inline">Digitio Stack</span>{" "}
               </h1>
               <h1 className="text-2xl tracking-tight text-purple-900 sm:text-5xl md:text-6xl">
