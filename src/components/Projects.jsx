@@ -9,35 +9,12 @@ export default function Projects() {
       url: "http://www.cpcreatives.unaux.com/index.html",
     },
     {
-      id: 2,
-      name: "AL Vahda",
-      image: require("../assets/images/2.png"),
-      url: "https://vahda.herokuapp.com/",
-    },
-    {
       id: 3,
       name: "E Commerce",
       image: require("../assets/images/3.png"),
-      url: "https://mern-amazon-shop.herokuapp.com/",
+      url: "https://e-commerce-mern-103z.onrender.com",
     },
-    {
-      id: 4,
-      name: "DHDC Manoor",
-      image: require("../assets/images/4.png"),
-      url: "http://dhdcmanoor.unaux.com/index.php",
-    },
-    {
-      id: 5,
-      name: "The Read",
-      image: require("../assets/images/5.png"),
-      url: "http://www.the-read.in/",
-    },
-    {
-      id: 6,
-      name: "Jamia Thahqeeq",
-      image: require("../assets/images/6.png"),
-      url: "http://jamiathahqeeq.in/",
-    },
+    
     {
       id: 7,
       name: "CEPT DHIU",
@@ -48,7 +25,7 @@ export default function Projects() {
       id: 8,
       name: "NOTOURS TRAVEL WEBSITE",
       image: require("../assets/images/14.png"),
-      url: "https://my-tour-project-2021.herokuapp.com/",
+      url: "https://tours-api.onrender.com",
     },
     {
       id: 9,
