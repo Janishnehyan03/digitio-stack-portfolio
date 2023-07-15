@@ -54,7 +54,7 @@ export default function Example() {
           <h2 className="text-base text-primary-900 font-semibold tracking-wide uppercase">
             Web Development
           </h2>
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-500 sm:text-4xl">
             Technologies we use
           </p>
         </div>

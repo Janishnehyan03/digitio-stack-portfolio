@@ -4,16 +4,18 @@ import HeroSections from "../components/HeroSection";
 import Contact from "./Contact";
 import FixedIcon from "./FixedIcon";
 import Footer from "./Footer";
-import Posters from "./Posters";
-import Projects from "./Projects";
+import Pricing from "./Pricing";
+import Service from "./Services";
+import About from "./About";
 
 export default function Home() {
   return (
     <>
       <HeroSections />
       <Features />
-      <Projects />
-      <Posters />
+      <Pricing />
+      <Service />
+      <About />
       <Contact />
       <FixedIcon />
       <Footer />

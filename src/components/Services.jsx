@@ -1,81 +1,112 @@
 import React from "react";
-
-export default function Services() {
-  const Services = [
-    {
-      id: 1,
-      name: "UI Design",
-      image: require("../assets/illustration/ui design.png"),
-    },
-    {
-      id: 2,
-      name: "Web Design",
-      image: require("../assets/illustration/developer2.png"),
-    },
-    {
-      id: 3,
-      name: "Web Development",
-      image: require("../assets/illustration/developer1.png"),
-    },
-    {
-      id: 4,
-      name: "Poster Design",
-      image: require("../assets/illustration/designer.png"),
-    },
-    {
-      id: 5,
-      name: "Logo Design",
-      image: require("../assets/illustration/logo design.png"),
-    },
-    {
-      id: 6,
-      name: "Video Editing",
-      image: require("../assets/illustration/video editor.png"),
-    },
-  ];
+import { FaChartBar, FaIdBadge, FaSearch } from "react-icons/fa";
+function Services() {
   return (
-    <div id="services">
+    <div>
       {/* component */}
-      <div className="py-16">
-        <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
-          <span className="font-semibold text-lg text-primary-900 mb-2 block">
-            Services
-          </span>
-          <h2
-            className="
-                font-bold
-                text-3xl
-                sm:text-4xl
-                md:text-[40px]
-                text-dark
-                mb-4
-                "
-          >
-            Our Services
-          </h2>
-        </div>
-        <div className="m-auto px-4 text-gray-500 md:px-12 xl:px-0">
-          <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
-            {Services.map((service, index) => (
-              <div className="bg-white rounded-2xl shadow-xl px-2 py-4 sm:px-12 lg:px-8 hover:shadow-2xl transition-shadow duration-300 group" key={service.id}>
-                <div className="mb-12 space-y-4">
-                  <h3 className="text-2xl font-semibold text-purple-900 tracking-tight group-hover:text-purple-600">
-                    {service.name}
-                  </h3>
-                </div>
-                <img
-                  src={service.image}
-                  className="w-2/3 ml-auto "
-                  alt="illustration"
-                  loading="lazy"
-                  width={900}
-                  height={600}
-                />
-              </div>
-            ))}
+      <div
+        id="services"
+        className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white"
+      >
+        <div className="container xl:max-w-6xl mx-auto px-4 ">
+          {/* Heading start */}
+          <div className="lg:text-center">
+            <h2 className="text-base text-primary-900 font-semibold tracking-wide uppercase">
+              services
+            </h2>
+            <p className="mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-500 sm:text-4xl">
+              Know About Our Services
+            </p>
           </div>
+          {/* End heading */}
+          {/* row */};
+          <div className="flex flex-wrap flex-row -mx-4 text-center mt-14">
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationName: "fadeInUp",
+              }}
+            >
+              {/* service block */}
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  {/* icon */}
+                  <FaSearch className="w-8 h-8 text-green-500" />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  Web Design
+                </h3>
+                <p className="text-gray-500">
+                  We create visually stunning and user-friendly websites that
+                  leave a lasting impression.
+                </p>
+              </div>
+              {/* end service block */}
+            </div>
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".1s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationDelay: "0.1s",
+                animationName: "fadeInUp",
+              }}
+            >
+              {/* service block */}
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  {/* icon */}
+                  <FaChartBar className="w-8 h-8 text-green-500" />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  Web Development
+                </h3>
+                <p className="text-gray-500">
+                  Our experts build robust and scalable web solutions aligned
+                  with your business goals.
+                </p>
+              </div>
+              {/* end service block */}
+            </div>
+            <div
+              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+              data-wow-duration="1s"
+              data-wow-delay=".3s"
+              style={{
+                visibility: "visible",
+                animationDuration: "1s",
+                animationDelay: "0.3s",
+                animationName: "fadeInUp",
+              }}
+            >
+              {/* service block */}
+              <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+                <div className="inline-block text-gray-900 mb-4">
+                  {/* icon */}
+                  <FaIdBadge className="w-8 h-8 text-green-500" />
+                </div>
+                <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+                  Mobile App Development
+                </h3>
+                <p className="text-gray-500">
+                  We bring your app idea to life with seamless user experiences
+                  on iOS and Android.
+                </p>
+              </div>
+              {/* end service block */}
+            </div>
+            {/* ... */}
+          </div>
+          {/* end row */}
         </div>
       </div>
     </div>
   );
 }
+
+export default Services;

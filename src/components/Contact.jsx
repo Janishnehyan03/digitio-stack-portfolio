@@ -2,47 +2,35 @@ import React from "react";
 
 function Contact() {
   return (
-    <div id="contact">
-      {/* social media details  */}
-      {/* whatsapp contact button */}
-      {/* component */}
-      <div className="py-16">
-        <div className="text-center mx-auto mb-[60px] lg:mb-20 max-w-[510px]">
-          <span className="font-semibold text-lg text-primary-900 mb-2 block">
-            Contact Us
-          </span>
-          <h2
-            className="
-                  font-bold
-                  text-3xl  sm:text-4xl md:text-[40px]  text-dark mb-4  "
-          >
-            Feel Free to Contact Us
-          </h2>
-
-          <div className="flex flex-col items-center">
-            <div className="flex flex-col justify-between row-auto">
-              <a
-                href="https://wa.me/918086996655?text=Hello%20Digito%20Stack"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center mb-4 sm:mb-0"
-              >
-                <button className="bg-white-500 hover:bg-green-500 hover:text-white transition text-green-600 border border-emerald-500 font-bold py-4 px-12 rounded mr-4">
-                Open Whatsapp
-                </button>
-              </a>
-              {/* phone number */}
-              <h1 className="font-bold text-sm text-dark my-4">
-                +91 8086996655
-              </h1>
-              <h1 className="font-bold text-sm text-dark mb-4">
-                digitiostack@gmail.com
-              </h1>
-            </div>
+    <section className="bg-white">
+      <div className="lg:text-center mt-10">
+        <h2 className="text-base text-primary-900 font-semibold tracking-wide uppercase">
+         Contact Us
+        </h2>
+        <p className="mt-2 text-3xl leading-8 font-semibold tracking-tight text-gray-400 sm:text-4xl">
+          Let's connect together
+        </p>
+      </div>
+      <div className="py-8 px-4 mx-auto w-full flex justify-center items-center sm:py-16 lg:px-6">
+        <div className="max-w-screen-md bg-gray-200 py-10 px-20 rounded-[20px]">
+          <p className="mb-8  text-center text-gray-500 sm:text-xl">
+            We are passionate about what we do, and we strive to exceed your
+            expectations by delivering innovative solutions that make a lasting
+            impact. Contact us today to discuss your project and let us help you
+            achieve your digital goals. We look forward to working with you and
+            being a part of your success story.
+          </p>
+          <div className="flex items-center justify-center">
+            <a
+              href="https://wa.me/918089966655?text=Hi%20Digitio%20Stack"
+              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary-900 rounded-lg hover:bg-green-800 focus:ring-4 focus:ring-green-300"
+            >
+              Contact Us Now
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
