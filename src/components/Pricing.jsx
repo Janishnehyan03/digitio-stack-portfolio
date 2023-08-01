@@ -57,10 +57,10 @@ function Pricing() {
               </li>
             </ul>
             <a
-              href="#"
+              href="https://wa.me/918086996655?text=Hi%20Digitio%20Stack%20I%20want%20to%20know%20about%20your%20starter%20package"
               className="text-white bg-primary-900 hover:bg-primary-800 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center   "
             >
-             Learn More
+              Learn More
             </a>
           </div>
           {/* Pricing Card */}
@@ -107,10 +107,10 @@ function Pricing() {
               </li>
             </ul>
             <a
-              href="#"
+              href="https://wa.me/918086996655?text=Hi%20Digitio%20Stack%20I%20want%20to%20know%20about%20your%20Advanced%20package"
               className="text-white bg-primary-900 hover:bg-primary-800 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center   "
             >
-             Learn More
+              Learn More
             </a>
           </div>
           {/* Pricing Card */}
@@ -158,10 +158,10 @@ function Pricing() {
               </li>
             </ul>
             <a
-              href="#"
+              href="https://wa.me/918086996655?text=Hi%20Digitio%20Stack%20I%20want%20to%20know%20about%20your%20Full%20Stack%20package"
               className="text-white bg-primary-900 hover:bg-primary-800 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center   "
             >
-             Learn More
+              Learn More
             </a>
           </div>
         </div>
