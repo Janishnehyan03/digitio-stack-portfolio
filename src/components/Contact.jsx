@@ -22,7 +22,7 @@ function Contact() {
           </p>
           <div className="flex items-center justify-center">
             <a
-              href="https://wa.me/918089966655?text=Hi%20Digitio%20Stack"
+              href="https://wa.me/918086996655?text=Hi%20Digitio%20Stack"
               className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-primary-900 rounded-lg hover:bg-green-800 focus:ring-4 focus:ring-green-300"
             >
               Contact Us Now

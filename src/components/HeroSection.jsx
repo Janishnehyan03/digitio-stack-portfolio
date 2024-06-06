@@ -148,7 +148,7 @@ export default function HeroSection() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#contact"
+                    href="https://wa.me/918086996655?text=Hi%20Digitio%20Stack"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary-900 hover:bg-white hover:text-primary-900 transition md:py-4 md:text-lg md:px-10 hover:border border-primary-900"
                   >
                     Contact Us
