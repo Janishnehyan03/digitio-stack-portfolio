@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="bg-gray-200 rounded-lg shadow m-4">
+    <footer className="bg-gray-200 rounded-lg shadow">
       <div className="w-full h-full flex items-center justify-center mx-auto max-w-screen-xl p-4">
         <span className="text-gray-500 text-center">
-          © 2023
+          © 2024
           <a href="https://flowbite.com/" className="hover:underline">
             {" "}
             Digitio Stack
